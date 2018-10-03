@@ -56,7 +56,7 @@ function makeGraphs(error, projectsJson) {
 
     // Load the json geodata first
 
-    d3.json("/static/lib/js/countries.json", function(worldcountries) {
+    d3.json("./static/lib/js/countries.json", function(worldcountries) {
     worldChart
         .dimension(ccDim)
         .width(mapWidth)
